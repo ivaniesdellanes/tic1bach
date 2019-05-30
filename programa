@@ -1,5 +1,5 @@
 <?php
 for($a=2;$a<70;$a=$a+2){
-if($a/3!=abs($a/3)){echo$a."hola";}
+if($a/3!=floor($a/3)){echo $a."-";}
 }
 ?>
